@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Andron Freefont LAT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Andron Freefont LAT'), url('https://fonts.cdnfonts.com/s/25126/Andron Freefont LAT Reg.woff') format('woff');
+}
+
+.headline {
+    font-family: 'Andron Freefont LAT';
+    font-size: 5rem;
+    font-weight: 400 !important;
+    color: #fff;
+}
+
+.lead {
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 1.0625rem;
+}
+@media (min-width: 300px) {
+    .cont{
+        position: relative;
+    }
+
+}
